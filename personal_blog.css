@@ -211,7 +211,7 @@ section.blog-home {
 }
 
 .blog-contact div {
-    background: url("back-ground.png");
+    background: url("blog-images/back-ground.png");
     background-size: cover;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
     border: 1px solid black;
