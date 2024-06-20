@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harika's Personal Blog</title>
     <link rel="stylesheet" href="personal_blog.css">
+
+    </script>
 </head>
 
 <body>
@@ -25,16 +27,16 @@
     </header>
     <main>
         <section class="blog-home" id="home">
-            <div class="content-container">
-                <p style="color:bisque;font-size: 2em;">Welcome to Personal Blog,</p>
-                <h1 style="font-family:Times;font-size: 2em; color:rgb(227, 190, 135);">I am <br></h1>
-                <h1 style="font-size: 4em;">
+            <div class="content-container" style="background: red;">
+                <p style="color:bisque;">Welcome to Personal Blog,</p>
+                <h1 style="font-family:Times; color:rgb(227, 190, 135);">I am <br></h1>
+                <h1 class="name">
                     <span style="color:rgb(195, 156, 218);">Harika</span>
                     <span style="color:rgb(73, 164, 180);">Koppisetti</span>
                 </h1>
-                <p style="color:aquamarine;font-size: 2em;">Here is the showcase of my work</p>
+                <p style="color:aquamarine;">Here is the showcase of my work</p>
             </div>
-            <div class="photo-container">
+            <div class="photo-container" style="background: pink;">
                 <img src="blog-images/photo.png" alt="Photo">
             </div>
         </section>
@@ -57,11 +59,11 @@
                 </p>
             </div>
         </section>
-        
+
         <section class="blog-interests" id="interests">
             <h1>My Interests</h1>
             <div class="blog-interests-container">
-                
+
                 <a href="#"><button>Coding</button></a>
                 <a href="#"><button>Web Development</button></a>
                 <a href="#"><button>Mathematics</button></a>
@@ -71,25 +73,26 @@
                 <a href="#"><button>Food</button></a>
                 <a href="#"><button>Dance</button></a>
                 <a href="#"><button>Paper crafts</button></a>
-                <a href="#"><button>Editing</button></a>                
+                <a href="#"><button>Editing</button></a>
             </div>
 
         </section>
 
-        <section class="blog-contact" id="contact">            
-            <div>               
-                <form>
-                    <h1 style="text-align: center; font-size: 30px; font-family: serif;text-shadow: 3px 3px 3px #000000;" >CONTACT ME</h1>
+        <section class="blog-contact" id="contact">
+            <div>
+                <form action="#">
+                    <h1
+                        style="text-align: center; font-size: 30px; font-family: serif;text-shadow: 3px 3px 3px #000000;">
+                        CONTACT ME</h1>
                     <input type="text" placeholder="Your Name">
                     <input type="email" placeholder="E-mail address">
                     <input type="number" placeholder="contact number" pattern="\d{10}" min="1111111111">
                     <textarea placeholder="Enter your Message here &#9786;"></textarea>
-                    <button >Submit</button>
+                    <input type="submit">
                 </form>
             </div>
         </section>
-    </main>
 
-</body>
+    </main>
 
 </html>
